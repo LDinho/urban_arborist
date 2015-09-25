@@ -1,3 +1,5 @@
+require_relative 'garden'
+
 class User
 
   attr_reader :name, :garden

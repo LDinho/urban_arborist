@@ -1,3 +1,5 @@
+require_relative 'tree'
+
 class NosizeError < StandardError
 end
 

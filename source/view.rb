@@ -30,4 +30,12 @@ class View
     gets.chomp
   end
 
+  def ask_for_attribute
+    "Give me an attribute that you are interested in please :)"
+  end
+
+  def ask_for_attribute_matcher
+    "what do you want that attribute to be"
+  end
+
 end
