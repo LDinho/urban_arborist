@@ -44,6 +44,7 @@ class Controller
       view.display_menu
       input = view.get_input
     end
+    view.pretty
   end
 
   def list_trees
